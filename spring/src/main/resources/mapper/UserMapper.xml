@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.self.dao.UserMapper">
+    <!-- 开启二级缓存 -->
+    <cache type="com.self.jedis.RedisCache"/>
+
+    <resultMap id="user" type="com.self.entity.UserEntity">
+        <result property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+    </resultMap>
+
+    <select id="getAllUsers" resultMap="user" parameterType="java.lang.String">
+        select * from user where id = #{id}
+    </select>
+
+    <update id="updateUserById" parameterType="com.self.entity.UserEntity">
+        update
+            user
+        set
+            username = #{username}
+        where
+            id="2"
+    </update>
+</mapper>

@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="296a80cd-e6a6-4898-a13c-0244671099ae" name="Default Changelist" comment="spring + springMVC + MyBatis + Maven + Redis + ActiveMQ + MySQL&#10;spring项目整合">
+      <change afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/com/tj/test/TestSynchronizedWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/threadStartTest/TestThreadStartMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/resources/mapping/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/activemq/consumer/ConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/activemq/producer/ProduceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/aop/MessageQueueAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/aop/UserAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/jedis/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/jedis/RedisCacheTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/test/redis/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/self/utils/SerializeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/activemq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/produce.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/activemq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/activemq/consumer/ConsumerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/activemq/producer/ProduceService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/activemq/producer/ProduceService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/activemq/producer/ProduceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/aop/MessageQueueAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/aop/UserAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/controller/DemoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/jedis/RedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/jedis/RedisCacheTransfer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/test/redis/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/self/utils/SerializeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/META-INF/spring.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/activemq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/activemq/consumer/ConsumerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/activemq/producer/ProduceService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/activemq/producer/ProduceService$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/activemq/producer/ProduceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/aop/MessageQueueAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/aop/UserAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/controller/DemoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/jedis/RedisCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/jedis/RedisCacheTransfer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/test/redis/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/com/self/utils/SerializeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/spring-aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/activemq-all-5.15.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/aspectjweaver-1.6.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/log4j-1.2.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/mybatis-3.2.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-context-support-4.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-data-redis-1.6.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/pages/produce.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/Demo01Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/Demo01Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/common/ActionResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/common/ActionResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/dao/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/java/com/self/demo01/serviceImpl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/java/self/demo01/serviceImpl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/main/resources/mapping/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/main/resources/mapping/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/Demo01ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/Demo01ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/abstracTest/TestAbstractBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/abstracTest/TestAbstractBird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/abstracTest/TestEagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/abstracTest/TestEagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/abstracTest/TestSparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/abstracTest/TestSparrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/activemqTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/activemqTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/activemqTest/TestMsgCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/activemqTest/TestMsgCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/activemqTest/TestMsgProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/activemqTest/TestMsgProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/containerTest/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/containerTest/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/dateTest/DateUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/dateTest/DateUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/stringTest/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/stringTest/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo-01/src/test/java/com/self/demo01/synchronizeTest/TestSynchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo-01/src/test/java/self/demo01/synchronizeTest/TestSynchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/SpringbootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/dao/LoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/serviceImpl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/src/main/java/com/self/springboot/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/self/jedis/RedisCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="90" column="25" lean-forward="true" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#4071#4072#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AnnotatedElementUtils</find>
+      <find>findMergedAnnotation</find>
+      <find>findMergedAnnotation(</find>
+      <find>receiveMessage</find>
+      <find>jmsTemplate</find>
+      <find>perpetualCache</find>
+      <find>execute</find>
+      <find>createCacheKey</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wanyanhongwei" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/self/activemq/consumer/ProduceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/activemq/producer/ProduceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/mapper/UserDAO.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/mapper/userMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-container.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/aop.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/dao/impl/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/dao/impl/UserMapperImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sprimg-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/activemq.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/test/redis/RedisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/aop/MessageQueueAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/activemq/consumer/ConsumerService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/aop/UserAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/annotion/Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/jedis/RedisCacheTransfer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/utils/SerializeUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/produce.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/jedis/RedisCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/self/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\mvnRespo" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="175" />
+    <option name="y" value="5" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24252874" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.self.annotion" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\resources\mapper" />
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\resources" />
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\java\com\self\mapping" />
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\webapp\WEB-INF\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\resources" />
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\java\com\self" />
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\java\com\self\mapping" />
+      <recent name="E:\IJProjectSpace\web_projects\spring\src\main\java\com\self\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat7">
+    <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.self.test.redis.RedisTest" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.self.test.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.self.utils.SerializeUtils" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.self.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.69" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/spring/index.jsp" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58371" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SerializeUtils" />
+        <item itemvalue="Application.RedisTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="296a80cd-e6a6-4898-a13c-0244671099ae" name="Default Changelist" comment="" />
+      <created>1561099353487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561099353487</updated>
+      <workItem from="1561099357565" duration="5363000" />
+      <workItem from="1561471741834" duration="4165000" />
+      <workItem from="1561517049635" duration="15258000" />
+      <workItem from="1561538782961" duration="8696000" />
+      <workItem from="1561720444903" duration="4994000" />
+      <workItem from="1561776995493" duration="322000" />
+      <workItem from="1561946077332" duration="6280000" />
+      <workItem from="1562031318694" duration="11190000" />
+      <workItem from="1562122314218" duration="5541000" />
+      <workItem from="1562375154918" duration="8136000" />
+      <workItem from="1562423617918" duration="1797000" />
+      <workItem from="1562488534167" duration="723000" />
+      <workItem from="1562576281527" duration="12884000" />
+      <workItem from="1562595622840" duration="2251000" />
+      <workItem from="1562636686560" duration="28322000" />
+      <workItem from="1562680811851" duration="2002000" />
+      <workItem from="1562722441689" duration="17975000" />
+      <workItem from="1562833060150" duration="3333000" />
+      <workItem from="1562841619789" duration="287000" />
+      <workItem from="1562851157805" duration="4863000" />
+      <workItem from="1562900707590" duration="15705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="160087000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27192983" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32756132" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.61079544" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Application Servers" order="6" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013495" side_tool="true" weight="0.45269287" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900432" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32900432" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.3153409" />
+      <window_info anchor="bottom" id="Debug" order="15" sideWeight="0.49865046" weight="0.42857143" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.48245615" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/Maven/mvnRespo/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/config/spring-context-4.3.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2080">
+          <caret line="213" column="31" selection-start-line="213" selection-start-column="31" selection-end-line="213" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/aop/UserAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/annotion/Mapper.java" />
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="47" column="47" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserBaseMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/cache/decorators/SerializedCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1094">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ObjectInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="213" column="13" selection-start-line="213" selection-start-column="13" selection-end-line="213" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/OutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/DataOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="229" column="43" lean-forward="true" selection-start-line="229" selection-start-column="43" selection-end-line="229" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1687">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="18" column="79" lean-forward="true" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/cache/Cache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/StampedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="913" column="16" selection-start-line="913" selection-start-column="16" selection-end-line="913" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="214" column="13" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/springframework/data/spring-data-redis/1.6.2.RELEASE/spring-data-redis-1.6.2.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="285" column="39" lean-forward="true" selection-start-line="285" selection-start-column="39" selection-end-line="285" selection-end-column="39" />
+          <folding>
+            <element signature="e#11643#11644#0" expanded="true" />
+            <element signature="e#11690#11691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/springframework/data/spring-data-redis/1.6.2.RELEASE/spring-data-redis-1.6.2.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/jedis/RedisCacheTransfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/utils/SerializeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/produce.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/binding/MapperMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="e#4725#4726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="236" column="57" selection-start-line="236" selection-start-column="57" selection-end-line="236" selection-end-column="57" />
+          <folding>
+            <element signature="e#8041#8042#0" expanded="true" />
+            <element signature="e#8103#8104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/executor/CachingExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/cache/TransactionalCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/cache/decorators/TransactionalCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/cache/decorators/LoggingCache.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3542#3543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+          <folding>
+            <element signature="e#3200#3201#0" expanded="true" />
+            <element signature="e#3249#3250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryJedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="246" column="22" selection-start-line="246" selection-start-column="22" selection-end-line="246" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Maven/mvnRespo/org/springframework/data/spring-data-redis/1.6.2.RELEASE/spring-data-redis-1.6.2.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="402" column="31" selection-start-line="402" selection-start-column="28" selection-end-line="402" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/activemq/consumer/ConsumerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/self/jedis/RedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="90" column="25" lean-forward="true" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#4071#4072#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24252874" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24252874" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

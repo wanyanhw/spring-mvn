@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 打开切面注解 -->
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+    <!-- xml配置AOP，释放掉注释，aop将使用注解和配置共同完成切入，首先切入xml
+     配置文件，然后再使用注解方式-->
+    <!--<aop:config>
+        <aop:aspect ref="userAspect">
+            <aop:pointcut id="userPointCut" expression="execution(* com.self.activemq..*.*(..))"/>
+            <aop:before method="before" pointcut-ref="userPointCut"/>
+        </aop:aspect>
+    </aop:config>-->
+</beans>
