@@ -6,8 +6,8 @@
     <script type="text/javascript">
         $().ready(function() {
             $("#receiveMsg").click(function () {
-                // $.post("receiveMessage", function (result) {
-                $.post("getUserInfo", function (result) {
+                $.post("receiveMessage", function (result) {
+                // $.post("getUserInfo", function (result) {
                     alert("结果：" + result)
                 }, "json");
             });
