@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.self.dao.MengShoppingDAO">
+    <!-- 开启二级缓存 -->
+    <cache type="com.self.jedis.RedisCache"/>
+
+    <resultMap id="goods" type="com.self.entity.GoodsEntity">
+        <result property="id" column="id"/>
+        <result property="number" column="number"/>
+        <result property="name" column="name"/>
+        <result property="total" column="total"/>
+        <result property="price" column="price"/>
+    </resultMap>
+
+    <!-- 查询商品信息 -->
+    <select id="getGoodsInfo" resultType="com.self.entity.GoodsEntity">
+        select * from goods where id = "abcdefghijklmnopqrstuvwxyz12345"
+    </select>
+
+    <!-- 更新商品总数 -->
+    <update id="updateGoodsInfoByID" parameterType="com.self.entity.GoodsEntity">
+        update goods
+        set
+        <include refid="set"/>
+        where ID=#{id}
+    </update>
+
+    <sql id="set">
+        <trim suffixOverrides=",">
+            <if test="number != null and number != ''">
+                NUMBER=#{number},
+            </if>
+            <if test="name != null and name != ''">
+                NAME=#{name},
+            </if>
+            <if test="total != null">
+                TOTAL=#{total},
+            </if>
+            <if test="price != null">
+                PRICE=#{price},
+            </if>
+        </trim>
+    </sql>
+</mapper>

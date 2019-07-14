@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 import java.util.logging.Logger;
 
 // 声明这是切面
-@Aspect
+//@Aspect
 // 声明这是组件
-@Component
+//@Component
 public class UserAspect {
     private Logger logger = Logger.getLogger("com.self.aop.UserAspect");
     // 定义切入点

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.self.dao.MengOrderDAO">
+    <!-- 开启二级缓存 -->
+    <cache type="com.self.jedis.RedisCache"/>
+
+    <resultMap id="goods" type="com.self.entity.OrderEntity">
+        <result property="id" column="ID"/>
+        <result property="number" column="NUMBER"/>
+        <result property="customerNumber" column="CUSTOMER_NUMBER"/>
+        <result property="customerName" column="CUSTOMER_NAME"/>
+        <result property="phoneNumber" column="PHONE_NUMBER"/>
+        <result property="buyCount" column="BUY_COUNT"/>
+        <result property="isPaid" column="IS_PAID"/>
+        <result property="createTime" column="CREATE_TIME"/>
+        <result property="dealTime" column="DEAL_TIME"/>
+        <result property="goodsId" column="GOODS_ID"/>
+    </resultMap>
+
+    <!-- 增加订单 -->
+    <insert id="addOrderInfo" parameterType="com.self.entity.OrderEntity">
+        insert into orders
+        <include refid="name"/>
+        values
+        <include refid="value"/>
+    </insert>
+
+
+
+    <sql id="name">
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null and id != ''">
+                ID,
+            </if>
+            <if test="number != null and number != ''">
+                NUMBER,
+            </if>
+            <if test="customerNumber != null and customerNumber != ''">
+                CUSTOMER_NUMBER,
+            </if>
+            <if test="customerName != null and customerName != ''">
+                CUSTOMER_NAME,
+            </if>
+            <if test="phoneNumber != null and phoneNumber != ''">
+                PHONE_NUMBER,
+            </if>
+            <if test="buyCount != null and buyCount != ''">
+                BUY_COUNT,
+            </if>
+            <if test="isPaid != null and isPaid != ''">
+                IS_PAID,
+            </if>
+            <if test="createTime != null and createTime != ''">
+                CREATE_TIME,
+            </if>
+            <if test="dealTime != null and dealTime != ''">
+                DEAL_TIME,
+            </if>
+            <if test="goodsId != null and goodsId != ''">
+                GOODS_ID,
+            </if>
+        </trim>
+    </sql>
+
+    <sql id="value">
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null and id != ''">
+                #{id},
+            </if>
+            <if test="number != null and number != ''">
+                #{number},
+            </if>
+            <if test="customerNumber != null and customerNumber != ''">
+                #{customerNumber},
+            </if>
+            <if test="customerName != null and customerName != ''">
+                #{customerName},
+            </if>
+            <if test="phoneNumber != null and phoneNumber != ''">
+                #{phoneNumber},
+            </if>
+            <if test="buyCount != null and buyCount != ''">
+                #{buyCount},
+            </if>
+            <if test="isPaid != null and isPaid != ''">
+                #{isPaid},
+            </if>
+            <if test="createTime != null and createTime != ''">
+                #{createTime},
+            </if>
+            <if test="dealTime != null and dealTime != ''">
+                #{dealTime},
+            </if>
+            <if test="goodsId != null and goodsId != ''">
+                #{goodsId},
+            </if>
+        </trim>
+    </sql>
+
+</mapper>

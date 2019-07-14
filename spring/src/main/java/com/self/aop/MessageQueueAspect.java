@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 import java.util.logging.Logger;
 
-@Aspect
-@Component
+//@Aspect
+//@Component
 public class MessageQueueAspect {
     private Logger logger = Logger.getLogger(this.getClass().toString());
     @Pointcut("execution(* com.self.activemq.producer.ProduceService.*(..))")

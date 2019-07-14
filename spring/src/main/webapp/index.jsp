@@ -12,6 +12,9 @@
         输入id:<input name="id" type="text" value="">
         <input type="submit" value="获取数据">
     </form>
+    <form action="addToCar" method="post">
+        <input type="submit" value="点击购买">
+    </form>
 </div>
 </body>
 </html>
